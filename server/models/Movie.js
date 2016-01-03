@@ -1,0 +1,1 @@
+// Create basic mongoose schema/model with a few properties
