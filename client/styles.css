@@ -1,0 +1,26 @@
+
+/*Header*/
+.app-header {
+  background-color: rgba(30, 45, 32, .95);
+  height: 2rem;
+  display: flex;
+  flex-flow: row nowrap;
+  position: relative;
+  align-items: center;
+}
+.logo {
+  height: 1.5rem;
+}
+.nav--main {}
+.nav--main__links {}
+.nav--main__link {}
+
+/*Input section*/
+.input--movie {}
+.input__title--movie {}
+.input__form--movie__title {}
+.input__form--movie__submit {}
+
+/*List Container*/
+.list-container--movies {}
+.list-item--movie {}

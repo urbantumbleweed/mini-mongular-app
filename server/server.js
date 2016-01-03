@@ -4,6 +4,8 @@ var bodyParser = require('body-parser');
 
 var app = express();
 
+app.use(express.static(__dirname + '../../client'));
+
 // Server static assets
 // Connect to your local MongoDB
 // Use body parser with url encoding and bodyparser.json
