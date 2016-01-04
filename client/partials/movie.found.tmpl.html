@@ -1,0 +1,13 @@
+<section class="found-container--movies">
+  <h1 class="found-movie__title">{{ movie.found.Title}} </h1>
+  <img src="{{ movie.found.Poster}}" alt="Poster for {{ movie.found.Title}}" class="found-movie__poster">
+  <span class="found-movie__genre">{{ movie.found.Genre }}</span>
+  <span class="found-movie__year">{{ movie.found.Year}}</span>
+  <p class="found-movie__plot">{{ movie.found.Plot}}</p>
+  <div class="found-movie__details">
+    <p class="found-movie__details--director">{{movie.found.Director}}</p>
+    <p class="found-movie__details--writer">{{ movie.found.Writer}}</p>
+    <p class="found-movie__details--actors">{{ movie.found.Actors}}</p>
+  </div>
+  <button ng-click="movie.add(movie.found)" class="found-movie__button--add">Save</button>
+</section>

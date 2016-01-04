@@ -1,0 +1,53 @@
+
+/*Header*/
+.app-header {
+  background-color: gray;
+  height: 2rem;
+  display: flex;
+  flex-flow: row nowrap;
+  position: relative;
+  align-items: center;
+}
+.logo {
+  height: 1.5rem;
+}
+.nav--main {}
+.nav--main__links {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nav--main__link {
+  background-color: light-gray;
+  text-decoration: none;
+  color: white;
+}
+
+/*Input section*/
+.input--movie {
+  margin: .5rem 1rem;
+}
+.input__title--movie {}
+.input__form--movie__title {}
+.input__form--movie__submit {
+
+}
+
+/*Found movie results*/
+.found-container--movies {}
+.found-movie__title {}
+.found-movie__poster {}
+.found-movie__genre {}
+.found-movie__year {}
+.found-movie__plot {}
+.found-movie__details {}
+.found-movie__details--director {}
+.found-movie__details--writer {}
+.found-movie__details--actors {}
+.found-movie__button--add {}
+
+/*List Container*/
+.list-container--movies {}
+.list-item--movie {}

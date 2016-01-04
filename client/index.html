@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="movie-app">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,25 +9,14 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="app-header">
-    <img src="" alt="" class="logo">
-    <nav class="nav--main">
-      <ul class="nav--main__links">
-        <li><a href="" class="nav--main__link">link1</a></li>
-        <li><a href="" class="nav--main__link">link2</a></li>
-        <li><a href="" class="nav--main__link">link3</a></li>
-      </ul>
-    </nav>
-  </header>
-  <section class="input--movie">
-    <h1 class="input__title--movie">Enter a movie</h1>
-    <form action="" class="input__form--movie">
-      <input type="text" class="input__form--movie__title">Title</input>
-      <button class="input__form--movie__submit"></button>
-    </form>
-  </section>
-  <section class="list-container--movies">
-    <div class="list-item--movie"></div>
-  </section>
+    <!-- We'll also add some navigation: -->
+    <div ui-view></div>
+
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+  <script src="js/common/models/movieModel.js"></script>
+  <script src="js/common/services/movieApi.js"></script>
+  <script src="js/movie/movieController.js"></script>
+  <script src="js/app.js"></script>
 </body>
 </html>

@@ -1,0 +1,29 @@
+{
+  "name": "movie monger",
+  "homepage": "https://github.com/urbantumbleweed/mini-mongular-app",
+  "authors": [
+    "Stephen Saunders <saunders.stephen@gmail.com>"
+  ],
+  "description": "simple movie full stack app",
+  "main": "js/app.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "angular",
+    "mongo",
+    "express"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.8",
+    "angular-ui-router": "~0.2.15"
+  }
+}
